@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.main-container {
+  background-color: #002233;
+  font-family: sans-serif;
+}
+
+.heading-section {
+  color: white;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heading-section h1 {
+  font-size: 4em;
+}
+.heading-section p {
+  align-self: flex-start;
+}
+
+.wave {
+  aspect-ratio: 9/0.5;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.wave-down {
+  background-image: url("../../imgs/wave-down.svg");
+}
+
+.wave-up {
+  background-image: url("../../imgs/wave-up.svg");
+}
+
+.layered-up {
+  background-image: url("../../imgs/layered-up.svg");
+}
+
+.games-list {
+  color: white;
+  background-color: #0066FF;
+  padding: 30px 0;
+}
+.games-list h1 {
+  width: 75%;
+  margin: 0 auto;
+  font-size: 2.5em;
+}
+.games-list .items-container {
+  width: 75%;
+  margin: 20px auto 75px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+.games-list .items-container-item {
+  position: relative;
+  height: 350px;
+  padding: 20px 20px 0 20px;
+  border-radius: 5px;
+  background-color: #002233;
+}
+.games-list .items-container-item .title {
+  font-size: 2em;
+}
+.games-list .items-container-item .game-img {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 2.5px;
+  height: 65%;
+}
+
+.form-container {
+  width: 75%;
+  margin: 50px auto;
+  color: white;
+}
+.form-container h1 {
+  font-size: 2.5em;
+}
+.form-container form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+.form-container form input {
+  width: 50%;
+}
+.form-container form select {
+  width: 25%;
+}
+.form-container form input, .form-container form select {
+  outline: none;
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+.form-container form button {
+  margin-top: 10px;
+  background-color: #0066FF;
+  color: white;
+  padding: 10px;
+  width: 25%;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.orders-container {
+  background-color: #0066FF;
+}
+
+.orders {
+  width: 75%;
+  margin: 0 auto 0;
+  padding-bottom: 50px;
+}
+.orders #order-example {
+  background-color: #002233;
+  color: white;
+  margin-top: 20px;
+}
+.orders h1 {
+  color: white;
+  font-size: 2.5em;
+}
+.orders-item {
+  background-color: white;
+  padding: 15px;
+  display: flex;
+}
+.orders-item:first-child {
+  margin-top: 20px;
+}
+.orders-item:nth-child(even) {
+  background-color: #bfd8ff;
+}
+.orders-item > div {
+  text-align: left;
+  display: inline-block;
+  width: 20%;
+}
