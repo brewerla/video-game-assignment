@@ -32,15 +32,15 @@
 }
 
 .wave-down {
-  background-image: url("../../imgs/wave-down.svg");
+  background-image: url("../imgs/wave-down.svg");
 }
 
 .wave-up {
-  background-image: url("../../imgs/wave-up.svg");
+  background-image: url("../imgs/wave-up.svg");
 }
 
 .layered-up {
-  background-image: url("../../imgs/layered-up.svg");
+  background-image: url("../imgs/layered-up.svg");
 }
 
 .games-list {
